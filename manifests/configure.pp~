@@ -1,10 +1,10 @@
 class puppettest::configure {
-      file {'/home/asiddique/test1':
+      file {'/tmp/test1':
       	   ensure => present, 
 	   content => "Hello World!",
       }
       
-      file {'/home/asiddique/test2':
+      file {'/tmp/test2':
       	   ensure => directory, 
 	   mode => 0644,
       }
